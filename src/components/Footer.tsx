@@ -1,5 +1,5 @@
 import { Instagram, Phone, MapPin } from "lucide-react";
-import logoImage from "@/assets/logo.png";
+import logoImage from "@/assets/logoofc.png";
 
 const Footer = () => {
   return (
@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
           {/* Brand */}
           <div>
-            <div className="mb-6">
-              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-12 w-auto object-contain" />
+            <div className="mb-6 flex justify-center md:justify-start">
+              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-20 w-auto object-contain" />
             </div>
             <p className="font-sans text-xs text-muted-foreground leading-relaxed">
               Cirurgião-dentista especialista em cirurgia avançada de papada e pescoço. Contorno facial natural com técnica, precisão e sofisticação.
