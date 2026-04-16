@@ -4,16 +4,19 @@ import { Reveal } from "@/hooks/useScrollReveal";
 const testimonials = [
   {
     videoSrc: "/videos/Fernanda.mp4",
+    thumbnailSrc: "/thumbs/fernanda.jpg",
     name: "Fernanda",
     procedure: "Recontorno em resina",
   },
   {
     videoSrc: "/videos/gislene.mp4",
+    thumbnailSrc: "/thumbs/gislene.jpg",
     name: "Gislene",
     procedure: "Recontorno em resina",
   },
   {
     videoSrc: "/videos/lais.mp4",
+    thumbnailSrc: "/thumbs/lais.jpg",
     name: "Laís",
     procedure: "Harmonização facial",
   },
@@ -44,6 +47,7 @@ const TestimonialsSection = () => {
                   {t.videoSrc ? (
                     <video 
                       src={t.videoSrc} 
+                      poster={t.thumbnailSrc}
                       className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-[1.03] opacity-90 group-hover:opacity-100"
                       controls
                       playsInline
