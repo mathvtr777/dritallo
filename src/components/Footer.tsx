@@ -31,17 +31,17 @@ const Footer = () => {
           <div>
             <h4 className="font-sans text-xs tracking-[0.2em] uppercase text-gold mb-4">Contato</h4>
             <div className="space-y-3 font-sans text-sm text-muted-foreground">
-              <a href="https://wa.me/5500000000000" className="flex items-center gap-3 hover:text-gold transition-colors">
-                <Phone className="w-4 h-4" strokeWidth={1.5} />
+              <a href="https://wa.me/5562995169097" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
+                <Phone className="w-4 h-4 flex-shrink-0" strokeWidth={1.5} />
                 WhatsApp
               </a>
-              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
-                <Instagram className="w-4 h-4" strokeWidth={1.5} />
+              <a href="https://www.instagram.com/dritallomoreira/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
+                <Instagram className="w-4 h-4 flex-shrink-0" strokeWidth={1.5} />
                 Instagram
               </a>
-              <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4" strokeWidth={1.5} />
-                Localização a definir
+              <div className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" strokeWidth={1.5} />
+                <span className="leading-relaxed">Instituto Itallo Moreira, Edifício Connect Park Business - Av. T-12, 35 - sala 2205 - St. Bueno, Goiânia - GO, 74223-080</span>
               </div>
             </div>
           </div>

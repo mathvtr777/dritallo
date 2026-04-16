@@ -51,7 +51,7 @@ const ResultsSection = () => {
           </p>
           <div className="text-center">
             <a 
-              href="https://instagram.com/" 
+              href="https://www.instagram.com/dritallomoreira/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 font-sans text-[11px] font-medium tracking-[0.15em] uppercase transition-all duration-500 border border-gold/30 text-gold hover:bg-gold hover:text-background rounded hover:shadow-[0_0_20px_hsl(43_72%_55%/0.2)] group"

@@ -15,7 +15,7 @@ const WhatsAppButton = ({ variant = "primary", className = "", children }: Whats
 
   return (
     <a
-      href="https://wa.me/5500000000000"
+      href="https://wa.me/5562995169097"
       target="_blank"
       rel="noopener noreferrer"
       className={`${baseClasses} ${variants[variant]} ${className}`}
