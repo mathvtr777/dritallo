@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-6 flex justify-center md:justify-start">
-              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-20 w-auto object-contain" />
+              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-20 w-auto object-contain scale-[2] md:scale-[1.8] origin-center md:origin-left" />
             </div>
             <p className="font-sans text-xs text-muted-foreground leading-relaxed">
               Cirurgião-dentista especialista em cirurgia avançada de papada e pescoço. Contorno facial natural com técnica, precisão e sofisticação.
