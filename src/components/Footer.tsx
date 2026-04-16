@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
           {/* Brand */}
           <div>
-            <div className="mb-6 flex justify-center md:justify-start">
-              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-20 w-auto object-contain scale-[2] md:scale-[1.8] origin-center md:origin-left" />
+            <div className="mb-8 flex justify-center md:justify-start">
+              <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-24 md:h-32 w-auto object-contain scale-[2.5] md:scale-[2] origin-center md:origin-left" />
             </div>
-            <p className="font-sans text-xs text-muted-foreground leading-relaxed">
+            <p className="font-sans text-xs text-muted-foreground leading-relaxed mt-4">
               Cirurgião-dentista especialista em cirurgia avançada de papada e pescoço. Contorno facial natural com técnica, precisão e sofisticação.
             </p>
           </div>

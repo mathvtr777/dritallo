@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-background/95 backdrop-blur-md border-b border-border py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto px-6 lg:px-16 flex items-center justify-between h-20 md:h-24">
         <a href="#" className="flex items-center">
-          <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-16 md:h-20 w-auto object-contain scale-[2] md:scale-[1.8] origin-left" />
+          <img src={logoImage} alt="Dr. Itallo Moreira Logo" className="h-20 md:h-28 w-auto object-contain scale-[2.5] md:scale-[2] origin-left" />
         </a>
 
         {/* Desktop */}
